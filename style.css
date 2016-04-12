@@ -1,0 +1,111 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:600,800);
+	@-webkit-keyframes animA
+	{
+		0%, 100% {-webkit-transform:translateY(1.5px);}
+		50% {-webkit-transform:translateY(-1.5px);}
+	}
+	@-webkit-keyframes animB
+	{
+		0%, 100% {-webkit-transform:translateY(-1.5px);}
+		50% {-webkit-transform:translateY(1.5px);}
+	}
+	@-webkit-keyframes svg {
+	0%,100%{fill:#EC185E;}14%{fill:#FF5917;}28%{fill:#EFCC00;}42%{fill:#00AD18;}
+	56%{fill:#005FE8;}70%{fill:#0036E2;}84%{fill:#9E07ED;}}
+	
+	@-webkit-keyframes button {
+	0%,100%{background:#EC185E;}14%{background:#FF5917;}28%{background:#EFCC00;}42%{background:#00AD18;}
+	56%{background:#005FE8;}70%{background:#0036E2;}84%{background:#9E07ED;}}
+
+	@-webkit-keyframes text {
+	0%,100%{color:#EC185E;}14%{color:#FF5917;}28%{color:#EFCC00;}42%{color:#00AD18;}
+	56%{color:#005FE8;}70%{color:#0036E2;}84%{color:#9E07ED;}}
+	*{padding:0;margin:0;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:greyscale;font-family:'Open Sans', sans-serif; font-weight:600; color:#333;}
+	span.courier
+	{
+		font-family: "Courier New";
+		font-size: 17px;
+		padding: 3px 7px;
+		margin: -3px -1px;
+		border-radius:5px;
+		background:rgba(0,0,0,.03);
+		box-shadow: 0 0 1px 1px rgba(0,0,0,0.05) inset;
+		cursor: text;
+	}
+	ul.social
+	{
+		margin: 50px 100px;
+	}
+	ul.social li
+	{
+		display: inline-block;
+		margin-right: 10px;
+	}
+		ul.social li a
+		{
+			width: 140px;
+			height: 50px;
+			line-height: 50px;
+			font-size: 14px;
+			color: #fff;
+			border-radius: 25px;
+			background: #ed1a5e;
+			text-decoration: none;
+			display: inherit;
+			text-align: center;
+			-webkit-animation: button 300s linear infinite;
+		}ul.social li a:active
+		{
+			-webkit-transform: scale(0.98);
+		}
+	p
+	{
+		margin: 0 100px;
+		font-size: 16px;
+		line-height: 28px;
+		cursor: default;
+	}
+	p a
+	{
+		-webkit-animation: text 300s linear infinite;
+	}
+	svg{width:320px;margin: 100px 100px 30px;fill:#ed1a5e;-webkit-animation: svg 300s linear infinite;overflow:visible;}
+		svg path.st0:nth-of-type(even)
+		{
+			-webkit-transform:translateY(2px);
+			-webkit-animation: animA 10s linear infinite;
+		}
+		svg path.st0:nth-of-type(odd)
+		{
+			-webkit-transform: translateY(-2px);
+			-webkit-animation: animB 10s linear infinite;
+		}
+	h2
+	{
+		-webkit-animation: text 300s linear infinite;
+		margin: 30px 100px 10px;
+		font-weight: 800;
+		font-size: 24px;
+		cursor: default;
+	}
+	ul.online-players
+	{
+		margin: 0 100px;
+		line-height: 32px;
+		text-indent: 42px;
+		font-size: 16px;
+		cursor: default; 
+	}
+	ul.online-players li
+	{
+		list-style: none;
+		margin: 4px 2px;
+		background-size: 32px 32px;
+		background-repeat: no-repeat;
+	}
+	.grijs
+{
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA9JREFUeNpiWLlyJUCAAQAD+gH8ppFh6wAAAABJRU5ErkJggg==');
+  color: #a9a9a9;
+}
+	
