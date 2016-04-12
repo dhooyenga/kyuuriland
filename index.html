@@ -27,6 +27,7 @@
 	  } else {
 	  	console.log("server is offline")
 	  };
+	  $('.online-title').append(" (" + serverStatus.Players.online + "/" + serverStatus.Players.max + ")");
 	  if(serverStatus.Players.list == false){
 	    $('.online-players').append("<li class='grijs'>The server is empty :(</li>")
 	  } else {
@@ -201,7 +202,7 @@
 
 <p>A <a href='http://minecraft.net' target='_blank'>Minecraft</a> server.<br>
 Join us at <span onclick="select_all(this)" class='courier'>kyuuri.land</span>.</p>
-<h2>Online players</h2>
+<h2 class='online-title'>Online players</h2>
 <ul class='online-players'></ul>
 </body>
 </html>
