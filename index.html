@@ -28,12 +28,10 @@
 	  	console.log("server is offline")
 	  };
 	  $('.online-title').append(" (" + serverStatus.Players.online + "/" + serverStatus.Players.max + ")");
-	  if(serverStatus.Players.list == false){
-	    $('.online-players').append("<li class='grijs'>The server is empty :(</li>")
-	  } else {
+	  if(serverStatus.Players.list != false){
 	    for (var i = 0; i < serverStatus.Players.list.length; i++) {
 	   		$('.online-players').append("<li class='player' style='background-image:url(https://mcapi.ca/avatar/2d/"+serverStatus.Players.list[i]+")'>"+serverStatus.Players.list[i]+"</li>")
-			}
+		}
 	  }
 	});
 	</script>
