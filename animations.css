@@ -1,0 +1,34 @@
+/* Letters moving up */
+@-webkit-keyframes animA { 0%, 100% {-webkit-transform:translateY(1.5px);} 50% {-webkit-transform:translateY(-1.5px);} }
+   @-moz-keyframes animA { 0%, 100% {-webkit-transform:translateY(1.5px);} 50% {-webkit-transform:translateY(-1.5px);} }
+     @-o-keyframes animA { 0%, 100% {-webkit-transform:translateY(1.5px);} 50% {-webkit-transform:translateY(-1.5px);} }
+    @-ms-keyframes animA { 0%, 100% {-webkit-transform:translateY(1.5px);} 50% {-webkit-transform:translateY(-1.5px);} }
+        @keyframes animA { 0%, 100% {-webkit-transform:translateY(1.5px);} 50% {-webkit-transform:translateY(-1.5px);} }
+
+/* Letters moving down */
+@-webkit-keyframes animB { 0%, 100% {-webkit-transform:translateY(-1.5px);} 50% {-webkit-transform:translateY(1.5px);} }
+   @-moz-keyframes animB { 0%, 100% {-webkit-transform:translateY(-1.5px);} 50% {-webkit-transform:translateY(1.5px);} }
+     @-o-keyframes animB { 0%, 100% {-webkit-transform:translateY(-1.5px);} 50% {-webkit-transform:translateY(1.5px);} }
+    @-ms-keyframes animB { 0%, 100% {-webkit-transform:translateY(-1.5px);} 50% {-webkit-transform:translateY(1.5px);} }
+        @keyframes animB { 0%, 100% {-webkit-transform:translateY(-1.5px);} 50% {-webkit-transform:translateY(1.5px);} }
+
+/* Logo shifting colors */
+@-webkit-keyframes svg { 0%,100%{fill:#EC185E;}14%{fill:#FF5917;}28%{fill:#EFCC00;}42%{fill:#00AD18;}56%{fill:#005FE8;}70%{fill:#0036E2;}84%{fill:#9E07ED;} }
+   @-moz-keyframes svg { 0%,100%{fill:#EC185E;}14%{fill:#FF5917;}28%{fill:#EFCC00;}42%{fill:#00AD18;}56%{fill:#005FE8;}70%{fill:#0036E2;}84%{fill:#9E07ED;} }
+     @-o-keyframes svg { 0%,100%{fill:#EC185E;}14%{fill:#FF5917;}28%{fill:#EFCC00;}42%{fill:#00AD18;}56%{fill:#005FE8;}70%{fill:#0036E2;}84%{fill:#9E07ED;} }
+    @-ms-keyframes svg { 0%,100%{fill:#EC185E;}14%{fill:#FF5917;}28%{fill:#EFCC00;}42%{fill:#00AD18;}56%{fill:#005FE8;}70%{fill:#0036E2;}84%{fill:#9E07ED;} }
+        @keyframes svg { 0%,100%{fill:#EC185E;}14%{fill:#FF5917;}28%{fill:#EFCC00;}42%{fill:#00AD18;}56%{fill:#005FE8;}70%{fill:#0036E2;}84%{fill:#9E07ED;} }
+
+/* Text shifting colors */
+@-webkit-keyframes text { 0%,100%{color:#EC185E;}14%{color:#FF5917;}28%{color:#EFCC00;}42%{color:#00AD18;}56%{color:#005FE8;}70%{color:#0036E2;}84%{color:#9E07ED;} }
+   @-moz-keyframes text { 0%,100%{color:#EC185E;}14%{color:#FF5917;}28%{color:#EFCC00;}42%{color:#00AD18;}56%{color:#005FE8;}70%{color:#0036E2;}84%{color:#9E07ED;} }
+     @-o-keyframes text { 0%,100%{color:#EC185E;}14%{color:#FF5917;}28%{color:#EFCC00;}42%{color:#00AD18;}56%{color:#005FE8;}70%{color:#0036E2;}84%{color:#9E07ED;} }
+    @-ms-keyframes text { 0%,100%{color:#EC185E;}14%{color:#FF5917;}28%{color:#EFCC00;}42%{color:#00AD18;}56%{color:#005FE8;}70%{color:#0036E2;}84%{color:#9E07ED;} }
+        @keyframes text { 0%,100%{color:#EC185E;}14%{color:#FF5917;}28%{color:#EFCC00;}42%{color:#00AD18;}56%{color:#005FE8;}70%{color:#0036E2;}84%{color:#9E07ED;} }
+
+/* Backgrounds shifting colors */
+@-webkit-keyframes button { 0%,100%{background:#EC185E;}14%{background:#FF5917;}28%{background:#EFCC00;}42%{background:#00AD18;}56%{background:#005FE8;}70%{background:#0036E2;}84%{background:#9E07ED;} }
+   @-moz-keyframes button { 0%,100%{background:#EC185E;}14%{background:#FF5917;}28%{background:#EFCC00;}42%{background:#00AD18;}56%{background:#005FE8;}70%{background:#0036E2;}84%{background:#9E07ED;} }
+     @-o-keyframes button { 0%,100%{background:#EC185E;}14%{background:#FF5917;}28%{background:#EFCC00;}42%{background:#00AD18;}56%{background:#005FE8;}70%{background:#0036E2;}84%{background:#9E07ED;} }
+    @-ms-keyframes button { 0%,100%{background:#EC185E;}14%{background:#FF5917;}28%{background:#EFCC00;}42%{background:#00AD18;}56%{background:#005FE8;}70%{background:#0036E2;}84%{background:#9E07ED;} }
+        @keyframes button { 0%,100%{background:#EC185E;}14%{background:#FF5917;}28%{background:#EFCC00;}42%{background:#00AD18;}56%{background:#005FE8;}70%{background:#0036E2;}84%{background:#9E07ED;} }
