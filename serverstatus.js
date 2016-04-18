@@ -4,7 +4,7 @@ $.getJSON("https://mcapi.ca/query/5.255.85.210:26263/list", function(serverStatu
 	if(serverStatus.Status == true)
 	{
 		console.log("server is online")
-		$(".status").append("<span class='online'>online</span>.")
+		//$(".status").append("<span class='online'>online</span>.")
 	} else {
 		console.log("server is offline")
 	};
