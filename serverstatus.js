@@ -11,13 +11,13 @@ $.getJSON("https://mcapi.ca/query/5.255.85.210:26263/list", function(serverStatu
 	// Player count + max
 	$('.online-title').append(" (" + serverStatus.players.online + "/" + serverStatus.players.max + ")");
 	// Display online players
-	if(serverStatus.players.list != false){
-		for (var i = 0; i < serverStatus.players.list.length; i++) {
+	if(serverStatus.list != false){
+		for (var i = 0; i < serverStatus.list.length; i++) {
 			$('.online-players').append(
 				"<li class='player' style='background-image:url(https://mcapi.ca/avatar/2d/"+
-				serverStatus.players.list[i]+
+				serverStatus.list[i]+
 				")'>"+
-				serverStatus.players.list[i]+
+				serverStatus.list[i]+
 				"</li>"
 			)
 	  	}
